@@ -1,8 +1,8 @@
 const Menu=[
 {
     id:1,
-    image:'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    name:"Pasta",
+    image:'https://foodish-api.herokuapp.com/images/pizza/pizza16.jpg',
+    name:"Pizza",
     category:"Breakfast",
     price:"$10",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -19,7 +19,7 @@ const Menu=[
 },
 {
     id:3,
-    image:"https://foodish-api.herokuapp.com/images/samosa/samosa19.jpg",
+    image:"https://foodish-api.herokuapp.com/images/samosa/samosa19.jpg8",
     name:"Singara",
     category:"Breakfast",
     price:"$30",
@@ -46,7 +46,7 @@ const Menu=[
 },
 {
     id:6,
-    image:"https://foodish-api.herokuapp.com/images/pizza/pizza89.jpg",
+    image:"https://foodish-api.herokuapp.com/images/pizza/pizza6.jpg",
     name:"Pizza",
     category:"Lunch",
     price:"$40",
