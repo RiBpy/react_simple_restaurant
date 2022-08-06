@@ -1,6 +1,7 @@
-const Menu=[{
+const Menu=[
+{
     id:1,
-    image:"images/pasta.jpg",
+    image:'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
     name:"Pasta",
     category:"Breakfast",
     price:"$10",
@@ -9,16 +10,16 @@ const Menu=[{
 },
 {
     id:2,
-    image:"images/pizza.jpg",
-    name:"Pizza",
-    category:"Dinner",
+    image:"https://foodish-api.herokuapp.com/images/pasta/pasta4.jpg",
+    name:"Pasta",
+    category:"Breakfast",
     price:"$20",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
 
 },
 {
     id:3,
-    image:"images/table2.jpg",
+    image:"https://foodish-api.herokuapp.com/images/samosa/samosa19.jpg",
     name:"Singara",
     category:"Breakfast",
     price:"$30",
@@ -27,8 +28,8 @@ const Menu=[{
 },
 {
     id:4,
-    image:"images/table3.jpg",
-    name:"Luci",
+    image:"https://foodish-api.herokuapp.com/images/rice/rice21.jpg",
+    name:"Fried Rice",
     category:"Lunch",
     price:"$40",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -36,8 +37,8 @@ const Menu=[{
 },
 {
     id:5,
-    image:"images/bulbBlack.jpg",
-    name:"Plain Rice",
+    image:"https://foodish-api.herokuapp.com/images/biryani/biryani17.jpg",
+    name:"Biriyani",
     category:"Dinner",
     price:"$25",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -45,8 +46,8 @@ const Menu=[{
 },
 {
     id:6,
-    image:"images/monitor.jpg",
-    name:"Beef",
+    image:"https://foodish-api.herokuapp.com/images/pizza/pizza89.jpg",
+    name:"Pizza",
     category:"Lunch",
     price:"$40",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -54,15 +55,15 @@ const Menu=[{
 },
 {
     id:7,
-    image:"images/mount2.jpg",
-    name:"Mutton",
+    image:"https://foodish-api.herokuapp.com/images/burger/burger42.jpg",
+    name:"Burger",
     category:"Breakfast",
     price:"$40",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
 
 },{
     id:8,
-    image:"images/phone.jpg",
+    image:"https://foodish-api.herokuapp.com/images/butter-chicken/butter-chicken19.jpg",
     name:"Chicken",
     category:"Lunch",
     price:"$40",
@@ -71,8 +72,8 @@ const Menu=[{
 },
 {
     id:9,
-    image:"images/table6.jpg",
-    name:"Fish",
+    image:"https://foodish-api.herokuapp.com/images/dessert/dessert9.jpg",
+    name:"Cake",
     category:"Dinner",
     price:"$40",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -80,7 +81,7 @@ const Menu=[{
 },
 {
     id:10,
-    image:"images/bulbBlack.jpg",
+    image:"https://foodish-api.herokuapp.com/images/rice/rice18.jpg",
     name:"Plain Rice",
     category:"Dinner",
     price:"$25",
@@ -89,7 +90,7 @@ const Menu=[{
 },
 {
     id:11,
-    image:"images/table1.jpg",
+    image:"https://foodish-api.herokuapp.com/images/pizza/pizza89.jpg",
     name:"Pizza",
     category:"Dinner",
     price:"$20",
@@ -98,8 +99,8 @@ const Menu=[{
 },
 {
     id:12,
-    image:"images/road.jpg",
-    name:"Pizza",
+    image:"https://foodish-api.herokuapp.com/images/burger/burger42.jpg",
+    name:"Burger",
     category:"Lunch",
     price:"$20",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
@@ -107,16 +108,16 @@ const Menu=[{
 },
 {
     id:13,
-    image:"images/pasta.jpg",
-    name:"Pasta",
-    category:"Lunch",
+    image:"https://foodish-api.herokuapp.com/images/dessert/dessert14.jpg",
+    name:"Ice Cream",
+    category:"Snacks",
     price:"$20",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
 
 },
 {
     id:14,
-    image:"images/pizza.jpg",
+    image:"https://foodish-api.herokuapp.com/images/biryani/biryani17.jpg",
     name:"Pizza",
     category:"Breakfast",
     price:"$20",
@@ -124,12 +125,12 @@ const Menu=[{
 
 },
 {
-    id:14,
-    image:"images/pasta.jpg",
+    id:15,
+    image:"https://foodish-api.herokuapp.com/images/biryani/biryani79.jpg",
     name:"Kacchi",
-    category:"Snacks",
+    category:"Dinner",
     price:"$20",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad voluptatum"
 
-},]
+}]
 export default Menu;

@@ -1,5 +1,5 @@
-import React from 'react'
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
+import React from 'react';
 
 const MenuCard = ({passedData}) => {
   return (
@@ -7,7 +7,7 @@ const MenuCard = ({passedData}) => {
             <motion.section layout className="main-card-container">
                 {
                     passedData.map((cardElement) => {
-                        const {id, name, category, image,description} = cardElement; //destructuring otherwise we have to 
+                        const {id, name, category, image,description} = cardElement; //destructuring
                         return (
                     <>
                         <div layout className="card-container" key={id}>
@@ -23,7 +23,7 @@ const MenuCard = ({passedData}) => {
                                     </span>
                                     <div className="card-read">Read</div>
                                 </div>
-                            <img src={image} alt="Breakfast-1" className="card-media" />
+                            <img src={image} alt="food" className="card-media" />
                             <span className="card-tag subtle">Order</span>
                             </div>
                         </div> 
